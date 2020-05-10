@@ -17,23 +17,23 @@ $EndDescr
 $Comp
 L AMS_custom_lib:LTC6813-1 U2
 U 1 1 5E305F45
-P 2350 4750
-F 0 "U2" H 2300 4750 50  0000 L CNN
-F 1 "LTC6813-1" H 2100 4900 50  0000 L CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 2350 6150 39  0001 C CNN
-F 3 "" H 2350 6150 50  0001 C CNN
-	1    2350 4750
+P 1900 6450
+F 0 "U2" H 1850 6450 50  0000 L CNN
+F 1 "LTC6813-1" H 1650 6600 50  0000 L CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 1900 7850 39  0001 C CNN
+F 3 "" H 1900 7850 50  0001 C CNN
+	1    1900 6450
 	1    0    0    -1  
 $EndComp
 $Comp
 L AMS_custom_lib:LT8631 U1
 U 1 1 5E305FC2
-P 3050 1600
-F 0 "U1" H 3050 2315 50  0000 C CNN
-F 1 "LT8631" H 3050 2224 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 3050 2250 50  0001 C CNN
-F 3 "" H 3050 2250 50  0001 C CNN
-	1    3050 1600
+P 1100 1300
+F 0 "U1" H 1100 2015 50  0000 C CNN
+F 1 "LT8631" H 1100 1924 50  0000 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 1100 1950 50  0001 C CNN
+F 3 "" H 1100 1950 50  0001 C CNN
+	1    1100 1300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -203,81 +203,81 @@ Text Label 9450 2050 2    50   ~ 0
 CELL4
 Text Label 9450 2150 2    50   ~ 0
 CELL2
-Text Label 1250 4000 2    50   ~ 0
+Text Label 800  5700 2    50   ~ 0
 C18
-Text Label 1250 4100 2    50   ~ 0
+Text Label 800  5800 2    50   ~ 0
 C18
-Text Label 1250 4200 2    50   ~ 0
+Text Label 800  5900 2    50   ~ 0
 S18
-Text Label 1250 4300 2    50   ~ 0
+Text Label 800  6000 2    50   ~ 0
 C17
-Text Label 1250 4400 2    50   ~ 0
+Text Label 800  6100 2    50   ~ 0
 S17
-Text Label 1250 4500 2    50   ~ 0
+Text Label 800  6200 2    50   ~ 0
 C16
-Text Label 1250 4600 2    50   ~ 0
+Text Label 800  6300 2    50   ~ 0
 S16
-Text Label 1250 4700 2    50   ~ 0
+Text Label 800  6400 2    50   ~ 0
 C15
-Text Label 1250 4800 2    50   ~ 0
+Text Label 800  6500 2    50   ~ 0
 S15
-Text Label 1250 4900 2    50   ~ 0
+Text Label 800  6600 2    50   ~ 0
 C14
-Text Label 1250 5000 2    50   ~ 0
+Text Label 800  6700 2    50   ~ 0
 S14
-Text Label 1250 5100 2    50   ~ 0
+Text Label 800  6800 2    50   ~ 0
 C13
-Text Label 1250 5200 2    50   ~ 0
+Text Label 800  6900 2    50   ~ 0
 S13
-Text Label 1250 5300 2    50   ~ 0
+Text Label 800  7000 2    50   ~ 0
 C12
-Text Label 1250 5400 2    50   ~ 0
+Text Label 800  7100 2    50   ~ 0
 S12
-Text Label 1250 5500 2    50   ~ 0
+Text Label 800  7200 2    50   ~ 0
 C11
-Text Label 1600 5850 3    50   ~ 0
+Text Label 1150 7550 3    50   ~ 0
 S11
-Text Label 1700 5850 3    50   ~ 0
+Text Label 1250 7550 3    50   ~ 0
 C10
-Text Label 1800 5850 3    50   ~ 0
+Text Label 1350 7550 3    50   ~ 0
 S10
-Text Label 1900 5850 3    50   ~ 0
+Text Label 1450 7550 3    50   ~ 0
 C9
-Text Label 2000 5850 3    50   ~ 0
+Text Label 1550 7550 3    50   ~ 0
 S9
-Text Label 2100 5850 3    50   ~ 0
+Text Label 1650 7550 3    50   ~ 0
 C8
-Text Label 2200 5850 3    50   ~ 0
+Text Label 1750 7550 3    50   ~ 0
 S8
-Text Label 2300 5850 3    50   ~ 0
+Text Label 1850 7550 3    50   ~ 0
 C7
-Text Label 2400 5850 3    50   ~ 0
+Text Label 1950 7550 3    50   ~ 0
 S7
-Text Label 2500 5850 3    50   ~ 0
+Text Label 2050 7550 3    50   ~ 0
 C6
-Text Label 2600 5850 3    50   ~ 0
+Text Label 2150 7550 3    50   ~ 0
 S6
-Text Label 2700 5850 3    50   ~ 0
+Text Label 2250 7550 3    50   ~ 0
 C5
-Text Label 2800 5850 3    50   ~ 0
+Text Label 2350 7550 3    50   ~ 0
 S5
-Text Label 2900 5850 3    50   ~ 0
+Text Label 2450 7550 3    50   ~ 0
 C4
-Text Label 3000 5850 3    50   ~ 0
+Text Label 2550 7550 3    50   ~ 0
 S4
-Text Label 3100 5850 3    50   ~ 0
+Text Label 2650 7550 3    50   ~ 0
 C3
-Text Label 3450 5000 0    50   ~ 0
+Text Label 3000 6700 0    50   ~ 0
 GND
-Text Label 3450 5100 0    50   ~ 0
+Text Label 3000 6800 0    50   ~ 0
 S1
-Text Label 3450 5200 0    50   ~ 0
+Text Label 3000 6900 0    50   ~ 0
 C1
-Text Label 3450 5300 0    50   ~ 0
+Text Label 3000 7000 0    50   ~ 0
 S2
-Text Label 3450 5400 0    50   ~ 0
+Text Label 3000 7100 0    50   ~ 0
 C2
-Text Label 3450 5500 0    50   ~ 0
+Text Label 3000 7200 0    50   ~ 0
 S3
 Text Label 6350 4300 2    50   ~ 0
 S1
@@ -351,30 +351,30 @@ Text Label 6350 900  2    50   ~ 0
 S18
 Text Label 6350 800  2    50   ~ 0
 C18
-Text Label 3100 3450 1    50   ~ 0
+Text Label 2650 5150 1    50   ~ 0
 DRIVE
-Text Label 3000 3450 1    50   ~ 0
+Text Label 2550 5150 1    50   ~ 0
 VREF2
-Text Label 2900 3450 1    50   ~ 0
+Text Label 2450 5150 1    50   ~ 0
 VREF1
-Text Label 2000 3450 1    50   ~ 0
+Text Label 1550 5150 1    50   ~ 0
 V-
-Text Label 2100 3450 1    50   ~ 0
+Text Label 1650 5150 1    50   ~ 0
 V-
 Wire Wire Line
-	3100 3650 3100 3450
+	2650 5350 2650 5150
 Wire Wire Line
-	3000 3650 3000 3450
+	2550 5350 2550 5150
 Wire Wire Line
-	2900 3650 2900 3450
+	2450 5350 2450 5150
 Wire Wire Line
-	2100 3650 2100 3450
+	1650 5350 1650 5150
 Wire Wire Line
-	2000 3650 2000 3450
-Text Label 3650 4000 0    50   ~ 0
+	1550 5350 1550 5150
+Text Label 3200 5700 0    50   ~ 0
 VREG
 Wire Wire Line
-	3450 4000 3650 4000
+	3000 5700 3200 5700
 Text Label 4350 5050 2    50   ~ 0
 VREG
 Text Label 4350 4850 2    50   ~ 0
@@ -484,14 +484,14 @@ Wire Wire Line
 Connection ~ 5200 4650
 Text Label 5200 4300 1    50   ~ 0
 6Vmin
-Text Label 2300 3450 1    50   ~ 0
+Text Label 1850 5150 1    50   ~ 0
 IBIAS
-Text Label 2200 3450 1    50   ~ 0
+Text Label 1750 5150 1    50   ~ 0
 ICMP
 Wire Wire Line
-	2200 3450 2200 3650
+	1750 5150 1750 5350
 Wire Wire Line
-	2300 3450 2300 3650
+	1850 5150 1850 5350
 $Comp
 L Device:R R?
 U 1 1 5EA47586
@@ -527,4 +527,223 @@ Text Label 5000 3700 2    50   ~ 0
 GND
 Wire Wire Line
 	5000 3700 5300 3700
+$Comp
+L Device:Transformer_1P_1S T?
+U 1 1 5EAAFBF0
+P 4600 6650
+F 0 "T?" H 4600 7028 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 4600 6937 50  0000 C CNN
+F 2 "" H 4600 6650 50  0001 C CNN
+F 3 "~" H 4600 6650 50  0001 C CNN
+	1    4600 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Transformer_1P_1S T?
+U 1 1 5EAAFCA3
+P 4600 7450
+F 0 "T?" H 4600 7828 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 4600 7737 50  0000 C CNN
+F 2 "" H 4600 7450 50  0001 C CNN
+F 3 "~" H 4600 7450 50  0001 C CNN
+	1    4600 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EAB060A
+P 4200 6650
+F 0 "R?" H 4270 6696 50  0000 L CNN
+F 1 "R" H 4270 6605 50  0000 L CNN
+F 2 "" V 4130 6650 50  0001 C CNN
+F 3 "~" H 4200 6650 50  0001 C CNN
+	1    4200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EAB069B
+P 4200 7450
+F 0 "R?" H 4270 7496 50  0000 L CNN
+F 1 "R" H 4270 7405 50  0000 L CNN
+F 2 "" V 4130 7450 50  0001 C CNN
+F 3 "~" H 4200 7450 50  0001 C CNN
+	1    4200 7450
+	1    0    0    -1  
+$EndComp
+Text Label 4200 6450 2    50   ~ 0
+IPA
+Text Label 4200 6850 2    50   ~ 0
+IMA
+Text Label 4200 7250 2    50   ~ 0
+IPB
+Text Label 4200 7650 2    50   ~ 0
+IMB
+Wire Wire Line
+	4200 6450 4200 6500
+Wire Wire Line
+	4200 6850 4200 6800
+Wire Wire Line
+	4200 7250 4200 7300
+Wire Wire Line
+	4200 7650 4200 7600
+Text Label 9550 5200 2    50   ~ 0
+IPA_IN
+Text Label 9550 5300 2    50   ~ 0
+IMA_IN
+Text Label 9550 6200 2    50   ~ 0
+IMB_IN
+Text Label 9550 6300 2    50   ~ 0
+IPB_IN
+Text Label 5000 6450 0    50   ~ 0
+IPA_IN
+Text Label 5000 6850 0    50   ~ 0
+IMA_IN
+Text Label 5000 7250 0    50   ~ 0
+IPB_IN
+Text Label 5000 7650 0    50   ~ 0
+IMB_IN
+Text Label 1150 5150 1    50   ~ 0
+IPB
+Text Label 1250 5150 1    50   ~ 0
+IMB
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5EAB5819
+P 6100 6650
+F 0 "J?" H 6206 6828 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6206 6737 50  0000 C CNN
+F 2 "" H 6100 6650 50  0001 C CNN
+F 3 "~" H 6100 6650 50  0001 C CNN
+	1    6100 6650
+	1    0    0    -1  
+$EndComp
+Text Label 6300 6650 0    50   ~ 0
+ISOMD
+Text Label 6300 6750 0    50   ~ 0
+VREG
+Wire Wire Line
+	1150 5350 1150 5150
+Wire Wire Line
+	1250 5350 1250 5150
+Text Label 2050 5150 1    50   ~ 0
+ISOMD
+Text Label 1350 5150 1    50   ~ 0
+IPA
+Text Label 1450 5150 1    50   ~ 0
+IPB
+Wire Wire Line
+	1350 5350 1350 5150
+Wire Wire Line
+	1450 5150 1450 5350
+Wire Wire Line
+	2050 5150 2050 5350
+$Comp
+L AMS_custom_lib:LTC1380 U?
+U 1 1 5EACE189
+P 2050 2800
+F 0 "U?" H 2050 3415 50  0000 C CNN
+F 1 "LTC1380" H 2050 3324 50  0000 C CNN
+F 2 "" H 2050 2750 50  0001 C CNN
+F 3 "" H 2050 2750 50  0001 C CNN
+	1    2050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMS_custom_lib:LTC1380 U?
+U 1 1 5EACE237
+P 2050 4000
+F 0 "U?" H 2050 4615 50  0000 C CNN
+F 1 "LTC1380" H 2050 4524 50  0000 C CNN
+F 2 "" H 2050 3950 50  0001 C CNN
+F 3 "" H 2050 3950 50  0001 C CNN
+	1    2050 4000
+	1    0    0    -1  
+$EndComp
+Text Label 1450 2450 2    50   ~ 0
+VTEMP1
+Text Label 1450 2550 2    50   ~ 0
+VTEMP2
+Text Label 1450 2650 2    50   ~ 0
+VTEMP3
+Text Label 1450 2750 2    50   ~ 0
+VTEMP4
+Text Label 1450 2850 2    50   ~ 0
+VTEMP5
+Text Label 1450 2950 2    50   ~ 0
+VTEMP6
+Text Label 1450 3050 2    50   ~ 0
+VTEMP7
+Text Label 1450 3150 2    50   ~ 0
+VTEMP8
+Text Label 1450 3650 2    50   ~ 0
+VTEMP9
+Text Label 1450 3750 2    50   ~ 0
+VTEMP10
+Text Label 1450 3850 2    50   ~ 0
+VTEMP11
+Text Label 1450 3950 2    50   ~ 0
+VTEMP12
+Text Label 1450 4050 2    50   ~ 0
+VTEMP13
+Text Label 1450 4150 2    50   ~ 0
+VTEMP14
+Text Label 1450 4250 2    50   ~ 0
+VTEMP15
+Text Label 1450 4350 2    50   ~ 0
+VTEMP16
+Wire Wire Line
+	1450 4350 1600 4350
+Wire Wire Line
+	1450 4250 1600 4250
+Wire Wire Line
+	1450 4150 1600 4150
+Wire Wire Line
+	1600 4050 1450 4050
+Wire Wire Line
+	1450 3950 1600 3950
+Wire Wire Line
+	1600 3850 1450 3850
+Wire Wire Line
+	1450 3750 1600 3750
+Wire Wire Line
+	1600 3650 1450 3650
+Wire Wire Line
+	1450 3150 1600 3150
+Wire Wire Line
+	1600 3050 1450 3050
+Wire Wire Line
+	1450 2950 1600 2950
+Wire Wire Line
+	1600 2850 1450 2850
+Wire Wire Line
+	1450 2750 1600 2750
+Wire Wire Line
+	1600 2650 1450 2650
+Wire Wire Line
+	1450 2550 1600 2550
+Wire Wire Line
+	1600 2450 1450 2450
+Wire Wire Line
+	2500 3650 2700 3650
+Wire Wire Line
+	2700 3650 2700 2450
+Wire Wire Line
+	2700 2450 2500 2450
+Text Label 3000 2450 0    50   ~ 0
+VREG
+Wire Wire Line
+	3000 2450 2700 2450
+Connection ~ 2700 2450
+$Comp
+L AMS_custom_lib:LTC6255 U?
+U 1 1 5EADBB48
+P 3850 3400
+F 0 "U?" H 3825 3565 50  0000 C CNN
+F 1 "LTC6255" H 3825 3474 50  0000 C CNN
+F 2 "" H 3850 3450 50  0001 C CNN
+F 3 "" H 3850 3450 50  0001 C CNN
+	1    3850 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

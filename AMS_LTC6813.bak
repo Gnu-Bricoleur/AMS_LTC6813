@@ -492,4 +492,150 @@ Wire Wire Line
 	2200 3450 2200 3650
 Wire Wire Line
 	2300 3450 2300 3650
+$Comp
+L Device:R R?
+U 1 1 5EA47586
+P 5300 3250
+F 0 "R?" H 5370 3296 50  0000 L CNN
+F 1 "R" H 5370 3205 50  0000 L CNN
+F 2 "" V 5230 3250 50  0001 C CNN
+F 3 "~" H 5300 3250 50  0001 C CNN
+	1    5300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA47651
+P 5300 3550
+F 0 "R?" H 5370 3596 50  0000 L CNN
+F 1 "R" H 5370 3505 50  0000 L CNN
+F 2 "" V 5230 3550 50  0001 C CNN
+F 3 "~" H 5300 3550 50  0001 C CNN
+	1    5300 3550
+	1    0    0    -1  
+$EndComp
+Text Label 5000 3100 2    50   ~ 0
+IBIAS
+Text Label 5000 3400 2    50   ~ 0
+ICMP
+Wire Wire Line
+	5000 3100 5300 3100
+Wire Wire Line
+	5000 3400 5300 3400
+Connection ~ 5300 3400
+Text Label 5000 3700 2    50   ~ 0
+GND
+Wire Wire Line
+	5000 3700 5300 3700
+$Comp
+L Device:Transformer_1P_1S T?
+U 1 1 5EAAFBF0
+P 4600 6650
+F 0 "T?" H 4600 7028 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 4600 6937 50  0000 C CNN
+F 2 "" H 4600 6650 50  0001 C CNN
+F 3 "~" H 4600 6650 50  0001 C CNN
+	1    4600 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Transformer_1P_1S T?
+U 1 1 5EAAFCA3
+P 4600 7450
+F 0 "T?" H 4600 7828 50  0000 C CNN
+F 1 "Transformer_1P_1S" H 4600 7737 50  0000 C CNN
+F 2 "" H 4600 7450 50  0001 C CNN
+F 3 "~" H 4600 7450 50  0001 C CNN
+	1    4600 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EAB060A
+P 4200 6650
+F 0 "R?" H 4270 6696 50  0000 L CNN
+F 1 "R" H 4270 6605 50  0000 L CNN
+F 2 "" V 4130 6650 50  0001 C CNN
+F 3 "~" H 4200 6650 50  0001 C CNN
+	1    4200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EAB069B
+P 4200 7450
+F 0 "R?" H 4270 7496 50  0000 L CNN
+F 1 "R" H 4270 7405 50  0000 L CNN
+F 2 "" V 4130 7450 50  0001 C CNN
+F 3 "~" H 4200 7450 50  0001 C CNN
+	1    4200 7450
+	1    0    0    -1  
+$EndComp
+Text Label 4200 6450 2    50   ~ 0
+IPA
+Text Label 4200 6850 2    50   ~ 0
+IMA
+Text Label 4200 7250 2    50   ~ 0
+IPB
+Text Label 4200 7650 2    50   ~ 0
+IMB
+Wire Wire Line
+	4200 6450 4200 6500
+Wire Wire Line
+	4200 6850 4200 6800
+Wire Wire Line
+	4200 7250 4200 7300
+Wire Wire Line
+	4200 7650 4200 7600
+Text Label 9550 5200 2    50   ~ 0
+IPA_IN
+Text Label 9550 5300 2    50   ~ 0
+IMA_IN
+Text Label 9550 6200 2    50   ~ 0
+IMB_IN
+Text Label 9550 6300 2    50   ~ 0
+IPB_IN
+Text Label 5000 6450 0    50   ~ 0
+IPA_IN
+Text Label 5000 6850 0    50   ~ 0
+IMA_IN
+Text Label 5000 7250 0    50   ~ 0
+IPB_IN
+Text Label 5000 7650 0    50   ~ 0
+IMB_IN
+Text Label 1600 3450 1    50   ~ 0
+IPB
+Text Label 1700 3450 1    50   ~ 0
+IMB
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5EAB5819
+P 6100 6650
+F 0 "J?" H 6206 6828 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6206 6737 50  0000 C CNN
+F 2 "" H 6100 6650 50  0001 C CNN
+F 3 "~" H 6100 6650 50  0001 C CNN
+	1    6100 6650
+	1    0    0    -1  
+$EndComp
+Text Label 6300 6650 0    50   ~ 0
+ISOMD
+Text Label 6300 6750 0    50   ~ 0
+VREG
+Wire Wire Line
+	1600 3650 1600 3450
+Wire Wire Line
+	1700 3650 1700 3450
+Text Label 2500 3450 1    50   ~ 0
+ISOMD
+Text Label 1800 3450 1    50   ~ 0
+IPA
+Text Label 1900 3450 1    50   ~ 0
+IPB
+Wire Wire Line
+	1800 3650 1800 3450
+Wire Wire Line
+	1900 3450 1900 3650
+Wire Wire Line
+	2500 3450 2500 3650
 $EndSCHEMATC

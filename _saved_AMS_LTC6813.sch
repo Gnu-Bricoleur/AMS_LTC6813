@@ -25,50 +25,6 @@ F 3 "" H 2050 7750 50  0001 C CNN
 	1    2050 6350
 	1    0    0    -1  
 $EndComp
-$Comp
-L AMS_custom_lib:CELLVOLCON J1
-U 1 1 5E4BE5C4
-P 9550 750
-F 0 "J1" H 10328 -54 50  0000 L CNN
-F 1 "CELLVOLCON" H 10328 -145 50  0000 L CNN
-F 2 "AMS_custom_lib:VOLCELLCON" H 9550 750 50  0001 C CNN
-F 3 "" H 9550 750 50  0001 C CNN
-	1    9550 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L AMS_custom_lib:ISOSPI1 J4
-U 1 1 5E4BE658
-P 9650 5800
-F 0 "J4" H 10019 5546 50  0000 L CNN
-F 1 "ISOSPI1" H 10019 5455 50  0000 L CNN
-F 2 "AMS_custom_lib:ISOSPICON" H 9650 5800 50  0001 C CNN
-F 3 "" H 9650 5800 50  0001 C CNN
-	1    9650 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L AMS_custom_lib:ISOSPI2 J3
-U 1 1 5E4BE783
-P 9650 5100
-F 0 "J3" H 10019 4846 50  0000 L CNN
-F 1 "ISOSPI2" H 10019 4755 50  0000 L CNN
-F 2 "AMS_custom_lib:ISOSPICON" H 9650 5100 50  0001 C CNN
-F 3 "" H 9650 5100 50  0001 C CNN
-	1    9650 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L AMS_custom_lib:TEMPSENCON J2
-U 1 1 5E4BE857
-P 9600 2650
-F 0 "J2" H 10127 1746 50  0000 L CNN
-F 1 "TEMPSENCON" H 10127 1655 50  0000 L CNN
-F 2 "AMS_custom_lib:TEMPSENSCON" H 9600 2650 50  0001 C CNN
-F 3 "" H 9600 2650 50  0001 C CNN
-	1    9600 2650
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 6350 600  800  3900
 U 5E4D37F6
@@ -130,18 +86,10 @@ F54 "CELL16" I R 7150 1150 50
 F55 "CELL17" I R 7150 1050 50 
 F56 "CELL18" I R 7150 950 50 
 $EndSheet
-Text Label 8950 1450 0    50   ~ 0
-GND
-Text Label 8950 2250 0    50   ~ 0
-GND
 Text Label 6000 4400 0    50   ~ 0
 GND
 Wire Wire Line
 	6000 4400 6350 4400
-Wire Wire Line
-	8950 2250 9450 2250
-Wire Wire Line
-	8950 1450 9450 1450
 Text Label 7150 2650 0    50   ~ 0
 CELL1
 Text Label 7150 2550 0    50   ~ 0
@@ -166,32 +114,6 @@ Text Label 7150 1650 0    50   ~ 0
 CELL11
 Text Label 7150 1550 0    50   ~ 0
 CELL12
-Text Label 9450 850  2    50   ~ 0
-CELL12
-Text Label 9450 950  2    50   ~ 0
-CELL11
-Text Label 9450 1650 2    50   ~ 0
-CELL10
-Text Label 9450 1050 2    50   ~ 0
-CELL9
-Text Label 9450 1150 2    50   ~ 0
-CELL7
-Text Label 9450 1250 2    50   ~ 0
-CELL3
-Text Label 9450 1350 2    50   ~ 0
-CELL1
-Text Label 9450 1550 2    50   ~ 0
-CELL12
-Text Label 9450 1750 2    50   ~ 0
-CELL8
-Text Label 9450 1850 2    50   ~ 0
-CELL6
-Text Label 9450 1950 2    50   ~ 0
-CELL5
-Text Label 9450 2050 2    50   ~ 0
-CELL4
-Text Label 9450 2150 2    50   ~ 0
-CELL2
 Text Label 950  5600 2    50   ~ 0
 V+
 Text Label 950  5700 2    50   ~ 0
@@ -356,14 +278,6 @@ Text Label 2000 5250 1    50   ~ 0
 IBIAS
 Text Label 1900 5250 1    50   ~ 0
 ICMP
-Text Label 9550 5200 2    50   ~ 0
-IPA_IN
-Text Label 9550 5300 2    50   ~ 0
-IMA_IN
-Text Label 9550 6200 2    50   ~ 0
-IMB_IN
-Text Label 9550 6300 2    50   ~ 0
-IPB_IN
 Text Label 1300 5250 1    50   ~ 0
 IPB
 Text Label 1400 5250 1    50   ~ 0

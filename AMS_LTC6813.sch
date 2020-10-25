@@ -1287,10 +1287,10 @@ CELL17
 Text Label 7150 950  0    50   ~ 0
 CELL18
 $Comp
-L Connector_Generic:Conn_02x20_Counter_Clockwise J?
+L Connector_Generic:Conn_02x20_Counter_Clockwise J71
 U 1 1 5F95EEEE
 P 9400 1700
-F 0 "J?" H 9450 2817 50  0000 C CNN
+F 0 "J71" H 9450 2817 50  0000 C CNN
 F 1 "Conn_02x20_Counter_Clockwise" H 9450 2726 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 9400 1700 50  0001 C CNN
 F 3 "~" H 9400 1700 50  0001 C CNN
@@ -1354,10 +1354,10 @@ GPIO8
 Text Label 9700 1900 0    50   ~ 0
 GPIO9
 $Comp
-L Device:R R?
+L Device:R R73
 U 1 1 5F96165A
 P 4600 6250
-F 0 "R?" V 4393 6250 50  0000 C CNN
+F 0 "R73" V 4393 6250 50  0000 C CNN
 F 1 "100" V 4484 6250 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4530 6250 50  0001 C CNN
 F 3 "~" H 4600 6250 50  0001 C CNN
@@ -1387,10 +1387,10 @@ SCKIPA1
 Text Label 5650 5100 2    50   ~ 0
 CSBIMA1
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J3
 U 1 1 5F963338
 P 5850 5200
-F 0 "J?" H 5930 5192 50  0000 L CNN
+F 0 "J3" H 5930 5192 50  0000 L CNN
 F 1 "Conn_01x06" H 5930 5101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5850 5200 50  0001 C CNN
 F 3 "~" H 5850 5200 50  0001 C CNN
@@ -1406,10 +1406,10 @@ GND
 Text Label 5300 5500 2    50   ~ 0
 VDD2
 $Comp
-L Device:R R?
+L Device:R R74
 U 1 1 5F963D26
 P 5350 5350
-F 0 "R?" H 5420 5396 50  0000 L CNN
+F 0 "R74" H 5420 5396 50  0000 L CNN
 F 1 "5k" H 5420 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 5350 50  0001 C CNN
 F 3 "~" H 5350 5350 50  0001 C CNN
@@ -1427,10 +1427,10 @@ Wire Wire Line
 	5350 5500 5650 5500
 Connection ~ 5350 5500
 $Comp
-L AMS_custom_lib:LTC6820 U?
+L AMS_custom_lib:LTC6820 U1
 U 1 1 5F9642E1
 P 6000 7000
-F 0 "U?" H 5975 7615 50  0000 C CNN
+F 0 "U1" H 5975 7615 50  0000 C CNN
 F 1 "LTC6820" H 5975 7524 50  0000 C CNN
 F 2 "Package_SO:MSOP-16_3x4mm_P0.5mm" H 5950 7500 50  0001 C CNN
 F 3 "" H 5950 7500 50  0001 C CNN
@@ -1438,10 +1438,10 @@ F 3 "" H 5950 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 J?
+L Connector_Generic:Conn_01x06 J1
 U 1 1 5F9647DF
 P 4550 7050
-F 0 "J?" H 4470 6525 50  0000 C CNN
+F 0 "J1" H 4470 6525 50  0000 C CNN
 F 1 "Conn_01x06" H 4470 6616 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4550 7050 50  0001 C CNN
 F 3 "~" H 4550 7050 50  0001 C CNN
@@ -1473,10 +1473,10 @@ VDD1
 Text Label 6400 7350 0    50   ~ 0
 VDD1
 $Comp
-L Connector_Generic:Conn_02x02_Counter_Clockwise J?
+L Connector_Generic:Conn_02x02_Counter_Clockwise J69
 U 1 1 5F96687F
 P 7100 5300
-F 0 "J?" H 7150 5517 50  0000 C CNN
+F 0 "J69" H 7150 5517 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 7150 5426 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7100 5300 50  0001 C CNN
 F 3 "~" H 7100 5300 50  0001 C CNN
@@ -1492,10 +1492,10 @@ SCKIPA
 Text Label 6900 5400 2    50   ~ 0
 CSBIMA
 $Comp
-L Connector_Generic:Conn_02x02_Counter_Clockwise J?
+L Connector_Generic:Conn_02x02_Counter_Clockwise J4
 U 1 1 5F967148
 P 6450 6000
-F 0 "J?" H 6500 6217 50  0000 C CNN
+F 0 "J4" H 6500 6217 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 6500 6126 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 6450 6000 50  0001 C CNN
 F 3 "~" H 6450 6000 50  0001 C CNN
@@ -1525,10 +1525,10 @@ ICMB
 Text Label 4550 5750 2    50   ~ 0
 GND
 $Comp
-L Connector:Conn_01x03_Female J?
+L Connector:Conn_01x03_Female J2
 U 1 1 5F962EA3
 P 4750 5650
-F 0 "J?" H 4777 5676 50  0000 L CNN
+F 0 "J2" H 4777 5676 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 4777 5585 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4750 5650 50  0001 C CNN
 F 3 "~" H 4750 5650 50  0001 C CNN
@@ -1536,10 +1536,10 @@ F 3 "~" H 4750 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Female J?
+L Connector:Conn_01x03_Female J70
 U 1 1 5F9677A5
 P 7550 6000
-F 0 "J?" H 7577 6026 50  0000 L CNN
+F 0 "J70" H 7577 6026 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 7577 5935 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7550 6000 50  0001 C CNN
 F 3 "~" H 7550 6000 50  0001 C CNN
@@ -1560,4 +1560,99 @@ Text Label 5550 7250 2    50   ~ 0
 VDD1
 Text Label 5550 7350 2    50   ~ 0
 VDD1
+$Comp
+L Device:C C?
+U 1 1 5F96A5E9
+P 9150 5150
+F 0 "C?" H 9265 5196 50  0000 L CNN
+F 1 "1u" H 9265 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 9188 5000 50  0001 C CNN
+F 3 "~" H 9150 5150 50  0001 C CNN
+	1    9150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F96A6FB
+P 9500 5150
+F 0 "C?" H 9615 5196 50  0000 L CNN
+F 1 "1u" H 9615 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 9538 5000 50  0001 C CNN
+F 3 "~" H 9500 5150 50  0001 C CNN
+	1    9500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F96A94A
+P 9850 5150
+F 0 "C?" H 9965 5196 50  0000 L CNN
+F 1 "1u" H 9965 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 9888 5000 50  0001 C CNN
+F 3 "~" H 9850 5150 50  0001 C CNN
+	1    9850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F96AA68
+P 10200 5150
+F 0 "C?" H 10315 5196 50  0000 L CNN
+F 1 "0.1u" H 10315 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 10238 5000 50  0001 C CNN
+F 3 "~" H 10200 5150 50  0001 C CNN
+	1    10200 5150
+	1    0    0    -1  
+$EndComp
+Text Label 10550 5300 0    50   ~ 0
+GND
+Wire Wire Line
+	10550 5300 10200 5300
+Wire Wire Line
+	10200 5300 9850 5300
+Connection ~ 10200 5300
+Wire Wire Line
+	9850 5300 9500 5300
+Connection ~ 9850 5300
+Wire Wire Line
+	9500 5300 9150 5300
+Connection ~ 9500 5300
+Text Label 9150 5000 0    50   ~ 0
+VREF1
+Text Label 9500 5000 0    50   ~ 0
+VREF2
+Text Label 9850 5000 0    50   ~ 0
+VREG
+$Comp
+L Device:R R?
+U 1 1 5F96B10A
+P 10200 4850
+F 0 "R?" H 10270 4896 50  0000 L CNN
+F 1 "R" H 10270 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10130 4850 50  0001 C CNN
+F 3 "~" H 10200 4850 50  0001 C CNN
+	1    10200 4850
+	1    0    0    -1  
+$EndComp
+Text Label 10200 4700 0    50   ~ 0
+C18
+Text Label 10200 5000 0    50   ~ 0
+C
+$Comp
+L Transistor_BJT:2N2219 Q?
+U 1 1 5F96B7EA
+P 9900 5900
+F 0 "Q?" H 10091 5946 50  0000 L CNN
+F 1 "2N2219" H 10091 5855 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 10100 5825 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 9900 5900 50  0001 L CNN
+	1    9900 5900
+	1    0    0    -1  
+$EndComp
+Text Label 10000 5700 0    50   ~ 0
+C
+Text Label 10000 6100 0    50   ~ 0
+VREG
+Text Label 9700 5900 2    50   ~ 0
+DRIVE
 $EndSCHEMATC

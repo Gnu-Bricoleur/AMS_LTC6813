@@ -25,50 +25,6 @@ F 3 "" H 2050 7750 50  0001 C CNN
 	1    2050 6350
 	1    0    0    -1  
 $EndComp
-$Comp
-L AMS_custom_lib:CELLVOLCON J1
-U 1 1 5E4BE5C4
-P 9550 750
-F 0 "J1" H 10328 -54 50  0000 L CNN
-F 1 "CELLVOLCON" H 10328 -145 50  0000 L CNN
-F 2 "AMS_custom_lib:VOLCELLCON" H 9550 750 50  0001 C CNN
-F 3 "" H 9550 750 50  0001 C CNN
-	1    9550 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L AMS_custom_lib:ISOSPI1 J4
-U 1 1 5E4BE658
-P 9650 5800
-F 0 "J4" H 10019 5546 50  0000 L CNN
-F 1 "ISOSPI1" H 10019 5455 50  0000 L CNN
-F 2 "AMS_custom_lib:ISOSPICON" H 9650 5800 50  0001 C CNN
-F 3 "" H 9650 5800 50  0001 C CNN
-	1    9650 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L AMS_custom_lib:ISOSPI2 J3
-U 1 1 5E4BE783
-P 9650 5100
-F 0 "J3" H 10019 4846 50  0000 L CNN
-F 1 "ISOSPI2" H 10019 4755 50  0000 L CNN
-F 2 "AMS_custom_lib:ISOSPICON" H 9650 5100 50  0001 C CNN
-F 3 "" H 9650 5100 50  0001 C CNN
-	1    9650 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L AMS_custom_lib:TEMPSENCON J2
-U 1 1 5E4BE857
-P 9600 2650
-F 0 "J2" H 10127 1746 50  0000 L CNN
-F 1 "TEMPSENCON" H 10127 1655 50  0000 L CNN
-F 2 "AMS_custom_lib:TEMPSENSCON" H 9600 2650 50  0001 C CNN
-F 3 "" H 9600 2650 50  0001 C CNN
-	1    9600 2650
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 6350 600  800  3900
 U 5E4D37F6
@@ -130,18 +86,10 @@ F54 "CELL16" I R 7150 1150 50
 F55 "CELL17" I R 7150 1050 50 
 F56 "CELL18" I R 7150 950 50 
 $EndSheet
-Text Label 8950 1450 0    50   ~ 0
-GND
-Text Label 8950 2250 0    50   ~ 0
-GND
 Text Label 6000 4400 0    50   ~ 0
 GND
 Wire Wire Line
 	6000 4400 6350 4400
-Wire Wire Line
-	8950 2250 9450 2250
-Wire Wire Line
-	8950 1450 9450 1450
 Text Label 7150 2650 0    50   ~ 0
 CELL1
 Text Label 7150 2550 0    50   ~ 0
@@ -166,32 +114,6 @@ Text Label 7150 1650 0    50   ~ 0
 CELL11
 Text Label 7150 1550 0    50   ~ 0
 CELL12
-Text Label 9450 850  2    50   ~ 0
-CELL12
-Text Label 9450 950  2    50   ~ 0
-CELL11
-Text Label 9450 1650 2    50   ~ 0
-CELL10
-Text Label 9450 1050 2    50   ~ 0
-CELL9
-Text Label 9450 1150 2    50   ~ 0
-CELL7
-Text Label 9450 1250 2    50   ~ 0
-CELL3
-Text Label 9450 1350 2    50   ~ 0
-CELL1
-Text Label 9450 1550 2    50   ~ 0
-CELL12
-Text Label 9450 1750 2    50   ~ 0
-CELL8
-Text Label 9450 1850 2    50   ~ 0
-CELL6
-Text Label 9450 1950 2    50   ~ 0
-CELL5
-Text Label 9450 2050 2    50   ~ 0
-CELL4
-Text Label 9450 2150 2    50   ~ 0
-CELL2
 Text Label 950  5600 2    50   ~ 0
 V+
 Text Label 950  5700 2    50   ~ 0
@@ -356,14 +278,6 @@ Text Label 2000 5250 1    50   ~ 0
 IBIAS
 Text Label 1900 5250 1    50   ~ 0
 ICMP
-Text Label 9550 5200 2    50   ~ 0
-IPA_IN
-Text Label 9550 5300 2    50   ~ 0
-IMA_IN
-Text Label 9550 6200 2    50   ~ 0
-IMB_IN
-Text Label 9550 6300 2    50   ~ 0
-IPB_IN
 Text Label 1300 5250 1    50   ~ 0
 IPB
 Text Label 1400 5250 1    50   ~ 0
@@ -371,9 +285,9 @@ IMB
 Text Label 2200 5250 1    50   ~ 0
 ISOMD
 Text Label 1500 5250 1    50   ~ 0
-IPA
+SCKIPA
 Text Label 1600 5250 1    50   ~ 0
-IPB
+CSBIMA
 $Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 5F93F022
@@ -811,13 +725,13 @@ V-
 Text Label 4500 2950 2    50   ~ 0
 V-
 Text Label 4500 3050 2    50   ~ 0
-CSB
+CSBIMA
 Text Label 4500 3150 2    50   ~ 0
-CSB
+CSBIMA
 Text Label 4500 3250 2    50   ~ 0
-SCK
+SCKIPA
 Text Label 4500 3350 2    50   ~ 0
-SCK
+SCKIPA
 Text Label 4500 2250 2    50   ~ 0
 IBIAS
 Text Label 4500 2350 2    50   ~ 0
@@ -1360,4 +1274,290 @@ F 3 "~" H 4700 3750 50  0001 C CNN
 	1    4700 3750
 	-1   0    0    1   
 $EndComp
+Text Label 7150 1450 0    50   ~ 0
+CELL13
+Text Label 7150 1350 0    50   ~ 0
+CELL14
+Text Label 7150 1250 0    50   ~ 0
+CELL15
+Text Label 7150 1150 0    50   ~ 0
+CELL16
+Text Label 7150 1050 0    50   ~ 0
+CELL17
+Text Label 7150 950  0    50   ~ 0
+CELL18
+$Comp
+L Connector_Generic:Conn_02x20_Counter_Clockwise J?
+U 1 1 5F95EEEE
+P 9400 1700
+F 0 "J?" H 9450 2817 50  0000 C CNN
+F 1 "Conn_02x20_Counter_Clockwise" H 9450 2726 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 9400 1700 50  0001 C CNN
+F 3 "~" H 9400 1700 50  0001 C CNN
+	1    9400 1700
+	1    0    0    -1  
+$EndComp
+Text Label 9200 2700 2    50   ~ 0
+GND
+Text Label 9200 2600 2    50   ~ 0
+CELL1
+Text Label 9200 2500 2    50   ~ 0
+CELL2
+Text Label 9200 2400 2    50   ~ 0
+CELL3
+Text Label 9200 2300 2    50   ~ 0
+CELL4
+Text Label 9200 2200 2    50   ~ 0
+CELL5
+Text Label 9200 2100 2    50   ~ 0
+CELL6
+Text Label 9200 2000 2    50   ~ 0
+CELL7
+Text Label 9200 1900 2    50   ~ 0
+CELL8
+Text Label 9200 1800 2    50   ~ 0
+CELL9
+Text Label 9200 1700 2    50   ~ 0
+CELL10
+Text Label 9200 1600 2    50   ~ 0
+CELL11
+Text Label 9200 1500 2    50   ~ 0
+CELL12
+Text Label 9200 1400 2    50   ~ 0
+CELL13
+Text Label 9200 1300 2    50   ~ 0
+CELL14
+Text Label 9200 1200 2    50   ~ 0
+CELL15
+Text Label 9200 1100 2    50   ~ 0
+CELL16
+Text Label 9200 1000 2    50   ~ 0
+CELL17
+Text Label 9200 900  2    50   ~ 0
+CELL18
+Text Label 9700 2700 0    50   ~ 0
+GPIO1
+Text Label 9700 2600 0    50   ~ 0
+GPIO2
+Text Label 9700 2500 0    50   ~ 0
+GPIO3
+Text Label 9700 2400 0    50   ~ 0
+GPIO4
+Text Label 9700 2300 0    50   ~ 0
+GPIO5
+Text Label 9700 2200 0    50   ~ 0
+GPIO6
+Text Label 9700 2100 0    50   ~ 0
+GPIO7
+Text Label 9700 2000 0    50   ~ 0
+GPIO8
+Text Label 9700 1900 0    50   ~ 0
+GPIO9
+$Comp
+L Device:R R?
+U 1 1 5F96165A
+P 4600 6250
+F 0 "R?" V 4393 6250 50  0000 C CNN
+F 1 "100" V 4484 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4530 6250 50  0001 C CNN
+F 3 "~" H 4600 6250 50  0001 C CNN
+	1    4600 6250
+	0    1    1    0   
+$EndComp
+Text Label 4750 6250 0    50   ~ 0
+IMB
+Text Label 4450 6250 2    50   ~ 0
+IPB
+Wire Notes Line
+	4200 4900 6050 4900
+Wire Notes Line
+	4200 6400 4200 4900
+Text Label 1850 4250 2    50   ~ 0
+GND
+Text Label 2000 4250 0    50   ~ 0
+V-
+Text Label 2000 4350 0    50   ~ 0
+C0
+Wire Wire Line
+	1850 4250 2000 4250
+Wire Wire Line
+	2000 4250 2000 4350
+Text Label 5650 5000 2    50   ~ 0
+SCKIPA1
+Text Label 5650 5100 2    50   ~ 0
+CSBIMA1
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5F963338
+P 5850 5200
+F 0 "J?" H 5930 5192 50  0000 L CNN
+F 1 "Conn_01x06" H 5930 5101 50  0000 L CNN
+F 2 "" H 5850 5200 50  0001 C CNN
+F 3 "~" H 5850 5200 50  0001 C CNN
+	1    5850 5200
+	1    0    0    -1  
+$EndComp
+Text Label 5300 5200 2    50   ~ 0
+SDO
+Text Label 5650 5300 2    50   ~ 0
+SDI
+Text Label 5650 5400 2    50   ~ 0
+GND
+Text Label 5300 5500 2    50   ~ 0
+VDD2
+$Comp
+L Device:R R?
+U 1 1 5F963D26
+P 5350 5350
+F 0 "R?" H 5420 5396 50  0000 L CNN
+F 1 "5k" H 5420 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 5350 50  0001 C CNN
+F 3 "~" H 5350 5350 50  0001 C CNN
+	1    5350 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5200 5350 5200
+Wire Wire Line
+	5350 5200 5650 5200
+Connection ~ 5350 5200
+Wire Wire Line
+	5300 5500 5350 5500
+Wire Wire Line
+	5350 5500 5650 5500
+Connection ~ 5350 5500
+$Comp
+L AMS_custom_lib:LTC6820 U?
+U 1 1 5F9642E1
+P 6000 7000
+F 0 "U?" H 5975 7615 50  0000 C CNN
+F 1 "LTC6820" H 5975 7524 50  0000 C CNN
+F 2 "" H 5950 7500 50  0001 C CNN
+F 3 "" H 5950 7500 50  0001 C CNN
+	1    6000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5F9647DF
+P 4550 7050
+F 0 "J?" H 4470 6525 50  0000 C CNN
+F 1 "Conn_01x06" H 4470 6616 50  0000 C CNN
+F 2 "" H 4550 7050 50  0001 C CNN
+F 3 "~" H 4550 7050 50  0001 C CNN
+	1    4550 7050
+	-1   0    0    1   
+$EndComp
+Text Label 5550 6850 2    50   ~ 0
+MISO
+Text Label 5550 6750 2    50   ~ 0
+MOSI
+Text Label 5550 6950 2    50   ~ 0
+SCK
+Text Label 5550 7050 2    50   ~ 0
+CS
+Text Label 4750 6750 0    50   ~ 0
+SCk
+Text Label 4750 6850 0    50   ~ 0
+CS
+Text Label 4750 6950 0    50   ~ 0
+MISO
+Text Label 4750 7050 0    50   ~ 0
+MOSI
+Text Label 4750 7150 0    50   ~ 0
+GND
+Text Label 4750 7250 0    50   ~ 0
+VDD1
+Text Label 5550 7150 2    50   ~ 0
+VDD1
+Text Label 6400 7350 0    50   ~ 0
+VDD1
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J?
+U 1 1 5F96687F
+P 7100 5300
+F 0 "J?" H 7150 5517 50  0000 C CNN
+F 1 "Conn_02x02_Counter_Clockwise" H 7150 5426 50  0000 C CNN
+F 2 "" H 7100 5300 50  0001 C CNN
+F 3 "~" H 7100 5300 50  0001 C CNN
+	1    7100 5300
+	1    0    0    -1  
+$EndComp
+Text Label 7400 5300 0    50   ~ 0
+SCKIPA1
+Text Label 7400 5400 0    50   ~ 0
+CSBIMA1
+Text Label 6900 5300 2    50   ~ 0
+SCKIPA
+Text Label 6900 5400 2    50   ~ 0
+CSBIMA
+$Comp
+L Connector_Generic:Conn_02x02_Counter_Clockwise J?
+U 1 1 5F967148
+P 6450 6000
+F 0 "J?" H 6500 6217 50  0000 C CNN
+F 1 "Conn_02x02_Counter_Clockwise" H 6500 6126 50  0000 C CNN
+F 2 "" H 6450 6000 50  0001 C CNN
+F 3 "~" H 6450 6000 50  0001 C CNN
+	1    6450 6000
+	1    0    0    -1  
+$EndComp
+Text Label 6750 6000 0    50   ~ 0
+IP
+Text Label 6750 6100 0    50   ~ 0
+IM
+Text Label 6250 6000 2    50   ~ 0
+SCKIPA
+Text Label 6250 6100 2    50   ~ 0
+CSBIMA
+Text Label 6400 7250 0    50   ~ 0
+IM
+Text Label 6400 7150 0    50   ~ 0
+IP
+Text Label 6400 7050 0    50   ~ 0
+VDD1
+Text Label 6400 6850 0    50   ~ 0
+GND
+Text Label 4550 5550 2    50   ~ 0
+IBIAS
+Text Label 4550 5650 2    50   ~ 0
+ICMB
+Text Label 4550 5750 2    50   ~ 0
+GND
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5F962EA3
+P 4750 5650
+F 0 "J?" H 4777 5676 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 4777 5585 50  0000 L CNN
+F 2 "" H 4750 5650 50  0001 C CNN
+F 3 "~" H 4750 5650 50  0001 C CNN
+	1    4750 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 5F9677A5
+P 7550 6000
+F 0 "J?" H 7577 6026 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 7577 5935 50  0000 L CNN
+F 2 "" H 7550 6000 50  0001 C CNN
+F 3 "~" H 7550 6000 50  0001 C CNN
+	1    7550 6000
+	1    0    0    -1  
+$EndComp
+Text Label 7350 6100 2    50   ~ 0
+GND1
+Text Label 7350 6000 2    50   ~ 0
+ICMB1
+Text Label 7350 5900 2    50   ~ 0
+IBIAS1
+Text Label 6400 6650 0    50   ~ 0
+IBIAS1
+Text Label 6400 6750 0    50   ~ 0
+ICMP1
+Text Label 5550 7250 2    50   ~ 0
+VDD1
+Text Label 5550 7350 2    50   ~ 0
+VDD1
 $EndSCHEMATC

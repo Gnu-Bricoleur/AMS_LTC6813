@@ -1356,22 +1356,22 @@ GPIO9
 $Comp
 L Device:R R73
 U 1 1 5F96165A
-P 4600 6250
-F 0 "R73" V 4393 6250 50  0000 C CNN
-F 1 "100" V 4484 6250 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4530 6250 50  0001 C CNN
-F 3 "~" H 4600 6250 50  0001 C CNN
-	1    4600 6250
+P 4050 5500
+F 0 "R73" V 3843 5500 50  0000 C CNN
+F 1 "100" V 3934 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3980 5500 50  0001 C CNN
+F 3 "~" H 4050 5500 50  0001 C CNN
+	1    4050 5500
 	0    1    1    0   
 $EndComp
-Text Label 4750 6250 0    50   ~ 0
+Text Label 4200 5500 0    50   ~ 0
 IMB
-Text Label 4450 6250 2    50   ~ 0
+Text Label 3900 5500 2    50   ~ 0
 IPB
 Wire Notes Line
-	4200 4900 6050 4900
+	3600 4600 5450 4600
 Wire Notes Line
-	4200 6400 4200 4900
+	3600 6100 3600 4600
 Text Label 1850 4250 2    50   ~ 0
 GND
 Text Label 2000 4250 0    50   ~ 0
@@ -1440,12 +1440,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x06 J1
 U 1 1 5F9647DF
-P 4550 7050
-F 0 "J1" H 4470 6525 50  0000 C CNN
-F 1 "Conn_01x06" H 4470 6616 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4550 7050 50  0001 C CNN
-F 3 "~" H 4550 7050 50  0001 C CNN
-	1    4550 7050
+P 3850 7050
+F 0 "J1" H 3770 6525 50  0000 C CNN
+F 1 "Conn_01x06" H 3770 6616 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3850 7050 50  0001 C CNN
+F 3 "~" H 3850 7050 50  0001 C CNN
+	1    3850 7050
 	-1   0    0    1   
 $EndComp
 Text Label 5550 6850 2    50   ~ 0
@@ -1456,17 +1456,17 @@ Text Label 5550 6950 2    50   ~ 0
 SCK
 Text Label 5550 7050 2    50   ~ 0
 CS
-Text Label 4750 6750 0    50   ~ 0
+Text Label 4050 6750 0    50   ~ 0
 SCk
-Text Label 4750 6850 0    50   ~ 0
+Text Label 4050 6850 0    50   ~ 0
 CS
-Text Label 4750 6950 0    50   ~ 0
+Text Label 4050 6950 0    50   ~ 0
 MISO
-Text Label 4750 7050 0    50   ~ 0
+Text Label 4050 7050 0    50   ~ 0
 MOSI
-Text Label 4750 7150 0    50   ~ 0
+Text Label 4050 7150 0    50   ~ 0
 GND
-Text Label 4750 7250 0    50   ~ 0
+Text Label 4050 7250 0    50   ~ 0
 VDD1
 Text Label 5550 7150 2    50   ~ 0
 VDD1
@@ -1518,21 +1518,21 @@ Text Label 6400 7050 0    50   ~ 0
 VDD1
 Text Label 6400 6850 0    50   ~ 0
 GND
-Text Label 4550 5550 2    50   ~ 0
+Text Label 4300 4050 2    50   ~ 0
 IBIAS
-Text Label 4550 5650 2    50   ~ 0
+Text Label 4300 4150 2    50   ~ 0
 ICMB
-Text Label 4550 5750 2    50   ~ 0
+Text Label 4300 4250 2    50   ~ 0
 GND
 $Comp
 L Connector:Conn_01x03_Female J2
 U 1 1 5F962EA3
-P 4750 5650
-F 0 "J2" H 4777 5676 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 4777 5585 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4750 5650 50  0001 C CNN
-F 3 "~" H 4750 5650 50  0001 C CNN
-	1    4750 5650
+P 4500 4150
+F 0 "J2" H 4527 4176 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 4527 4085 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4500 4150 50  0001 C CNN
+F 3 "~" H 4500 4150 50  0001 C CNN
+	1    4500 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1655,4 +1655,188 @@ Text Label 10000 6100 0    50   ~ 0
 VREG
 Text Label 9700 5900 2    50   ~ 0
 DRIVE
+Text Label 6400 6950 0    50   ~ 0
+SLOW
+Text Label 5550 6650 2    50   ~ 0
+EN
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F976C0F
+P 4500 5700
+F 0 "J?" H 4606 5878 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 5787 50  0000 C CNN
+F 2 "" H 4500 5700 50  0001 C CNN
+F 3 "~" H 4500 5700 50  0001 C CNN
+	1    4500 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F976D69
+P 4500 5900
+F 0 "J?" H 4606 6078 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 5987 50  0000 C CNN
+F 2 "" H 4500 5900 50  0001 C CNN
+F 3 "~" H 4500 5900 50  0001 C CNN
+	1    4500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F976E94
+P 4500 6100
+F 0 "J?" H 4606 6278 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 6187 50  0000 C CNN
+F 2 "" H 4500 6100 50  0001 C CNN
+F 3 "~" H 4500 6100 50  0001 C CNN
+	1    4500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F976FBC
+P 4500 6300
+F 0 "J?" H 4606 6478 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 6387 50  0000 C CNN
+F 2 "" H 4500 6300 50  0001 C CNN
+F 3 "~" H 4500 6300 50  0001 C CNN
+	1    4500 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F9770EB
+P 4500 6500
+F 0 "J?" H 4606 6678 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 6587 50  0000 C CNN
+F 2 "" H 4500 6500 50  0001 C CNN
+F 3 "~" H 4500 6500 50  0001 C CNN
+	1    4500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F977221
+P 4500 6700
+F 0 "J?" H 4606 6878 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 6787 50  0000 C CNN
+F 2 "" H 4500 6700 50  0001 C CNN
+F 3 "~" H 4500 6700 50  0001 C CNN
+	1    4500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F97735C
+P 4500 6900
+F 0 "J?" H 4606 7078 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 6987 50  0000 C CNN
+F 2 "" H 4500 6900 50  0001 C CNN
+F 3 "~" H 4500 6900 50  0001 C CNN
+	1    4500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F97749C
+P 4500 7100
+F 0 "J?" H 4606 7278 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 7187 50  0000 C CNN
+F 2 "" H 4500 7100 50  0001 C CNN
+F 3 "~" H 4500 7100 50  0001 C CNN
+	1    4500 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F9775D1
+P 4500 7300
+F 0 "J?" H 4606 7478 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 7387 50  0000 C CNN
+F 2 "" H 4500 7300 50  0001 C CNN
+F 3 "~" H 4500 7300 50  0001 C CNN
+	1    4500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F97770B
+P 4500 7500
+F 0 "J?" H 4606 7678 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 7587 50  0000 C CNN
+F 2 "" H 4500 7500 50  0001 C CNN
+F 3 "~" H 4500 7500 50  0001 C CNN
+	1    4500 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F97784A
+P 4500 7700
+F 0 "J?" H 4606 7878 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 7787 50  0000 C CNN
+F 2 "" H 4500 7700 50  0001 C CNN
+F 3 "~" H 4500 7700 50  0001 C CNN
+	1    4500 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F9779F6
+P 4500 5500
+F 0 "J?" H 4606 5678 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 5587 50  0000 C CNN
+F 2 "" H 4500 5500 50  0001 C CNN
+F 3 "~" H 4500 5500 50  0001 C CNN
+	1    4500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F977C11
+P 4500 5300
+F 0 "J?" H 4606 5478 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 5387 50  0000 C CNN
+F 2 "" H 4500 5300 50  0001 C CNN
+F 3 "~" H 4500 5300 50  0001 C CNN
+	1    4500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F977F70
+P 4500 5100
+F 0 "J?" H 4606 5278 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 5187 50  0000 C CNN
+F 2 "" H 4500 5100 50  0001 C CNN
+F 3 "~" H 4500 5100 50  0001 C CNN
+	1    4500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F978637
+P 4500 4900
+F 0 "J?" H 4606 5078 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 4987 50  0000 C CNN
+F 2 "" H 4500 4900 50  0001 C CNN
+F 3 "~" H 4500 4900 50  0001 C CNN
+	1    4500 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F978783
+P 4500 4700
+F 0 "J?" H 4606 4878 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4606 4787 50  0000 C CNN
+F 2 "" H 4500 4700 50  0001 C CNN
+F 3 "~" H 4500 4700 50  0001 C CNN
+	1    4500 4700
+	1    0    0    -1  
+$EndComp
+Text Label 4700 4700 0    50   ~ 0
+EN
+Text Label 4700 4800 0    50   ~ 0
+EN
 $EndSCHEMATC

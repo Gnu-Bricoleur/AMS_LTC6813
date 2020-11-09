@@ -1320,6 +1320,8 @@ Text Label 9200 2500 2    50   ~ 0
 CELL10
 Text Label 9200 2300 2    50   ~ 0
 CELL11
+Text Label 9200 2100 2    50   ~ 0
+CELL12
 Text Label 9200 1900 2    50   ~ 0
 CELL13
 Text Label 9200 1700 2    50   ~ 0
@@ -1332,19 +1334,23 @@ Text Label 9200 1100 2    50   ~ 0
 CELL17
 Text Label 9200 900  2    50   ~ 0
 CELL18
-Text Label 9700 900  0    50   ~ 0
+Text Label 9200 2600 2    50   ~ 0
 GPIO1
-Text Label 9700 1500 0    50   ~ 0
+Text Label 9200 2400 2    50   ~ 0
+GPIO2
+Text Label 9200 2200 2    50   ~ 0
+GPIO3
+Text Label 9200 2000 2    50   ~ 0
 GPIO4
-Text Label 9700 1700 0    50   ~ 0
+Text Label 9200 1800 2    50   ~ 0
 GPIO5
-Text Label 9700 1900 0    50   ~ 0
+Text Label 9200 1600 2    50   ~ 0
 GPIO6
-Text Label 9700 2100 0    50   ~ 0
+Text Label 9200 1400 2    50   ~ 0
 GPIO7
-Text Label 9700 2300 0    50   ~ 0
+Text Label 9200 1200 2    50   ~ 0
 GPIO8
-Text Label 9700 2500 0    50   ~ 0
+Text Label 9200 1000 2    50   ~ 0
 GPIO9
 $Comp
 L Device:R R73
@@ -1883,10 +1889,4 @@ Text Notes 4900 5850 0    50   ~ 0
 Selection entre les deux mode de connection\n
 Text Notes 4950 4900 0    50   ~ 0
 Single device using 4 wire port (p44)
-Text Label 9700 1300 0    50   ~ 0
-GPIO3
-Text Label 9200 2100 2    50   ~ 0
-CELL12
-Text Label 9700 1100 0    50   ~ 0
-GPIO2
 $EndSCHEMATC
